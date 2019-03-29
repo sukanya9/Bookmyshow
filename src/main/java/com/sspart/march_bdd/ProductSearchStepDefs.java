@@ -36,13 +36,13 @@ public class ProductSearchStepDefs extends DriverUtils{
 	   productSearchPage.selectProduct(productName);
 	   productPage.switchToProductPage(productName);
 	}
-//
-//	@Then("^I will print the product price$")
-//	public void i_will_print_the_product_price() throws Throwable {
-//		productPage.printPrice();
-//		productPage.switchBack();
-//	   
-//	   
-//	}
+
+	@Then("^I will print the product price$")
+	public void i_will_print_the_product_price() throws Throwable {
+		productPage.printPrice();
+		productPage.switchBack();
+	   
+	   
+	}
 
 }
