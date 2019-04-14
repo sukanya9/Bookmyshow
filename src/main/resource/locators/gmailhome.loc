@@ -1,0 +1,5 @@
+gmail.url=https://www.gmail.com
+gmail.username=By.id("identifierId")
+gmail.next=By.xpath("//*[text()=\"Next\"]")
+gmail.password=By.name("password")
+gmail.continue=By.xpath("//*[text()=\"Next\"]")

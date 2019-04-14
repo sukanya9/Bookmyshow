@@ -33,6 +33,12 @@
     <artifactId>cucumber-java</artifactId>
     <version>1.2.5</version>
 	</dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.9</version>
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
@@ -41,5 +47,12 @@
     <version>6.14.3</version>
     <scope>test</scope>
 	</dependency> 
+	<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.0.0</version>
+</dependency>
  </dependencies>
 </project>

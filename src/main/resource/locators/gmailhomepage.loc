@@ -1,0 +1,1 @@
+gmail.compose=By.linkText("//*[text()='Compose']")

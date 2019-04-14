@@ -1,8 +1,8 @@
-package com.sspart.pages;
+package com.sspart.experiment.pages;
 
 import org.openqa.selenium.By;
 
-import com.sspart.utils.DriverUtils;
+import com.sspart.experiment.utils.DriverUtils;
 
 public class HomePage extends DriverUtils{
 	public void navigateToHome() {

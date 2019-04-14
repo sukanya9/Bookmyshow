@@ -1,8 +1,8 @@
-package com.sspart.pages;
+package com.sspart.experiment.pages;
 
 import org.openqa.selenium.By;
 
-import com.sspart.utils.DriverUtils;
+import com.sspart.experiment.utils.DriverUtils;
 
 public class ProductPage extends DriverUtils{
 	public void switchToProductPage(String productName) {
@@ -11,11 +11,10 @@ public class ProductPage extends DriverUtils{
 			if(driver.getTitle().contains(productName)) {
 				return;
 			}
-			//System.out.println("hi");
 		}
 	}
 	public void printPrice() {
-		System.out.println(driver.findElement(By.id("amazon.dealprice")).getText());
+		System.out.println(driver.findElement(By.xpath(props.getProperty("amazon.deal.price"))).getText());
 	}
 	public void switchBack() {
 		for(String windowHandle : driver.getWindowHandles()) {

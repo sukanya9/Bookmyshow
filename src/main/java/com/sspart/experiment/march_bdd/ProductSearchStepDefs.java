@@ -1,11 +1,13 @@
-package com.sspart.march_bdd;
+package com.sspart.experiment.march_bdd;
+
+//import org.openqa.selenium.By;
 
 import org.testng.Assert;
 
-import com.sspart.pages.HomePage;
-import com.sspart.pages.ProductPage;
-import com.sspart.pages.ProductSearchPage;
-import com.sspart.utils.DriverUtils;
+import com.sspart.experiment.pages.HomePage;
+import com.sspart.experiment.pages.ProductPage;
+import com.sspart.experiment.pages.ProductSearchPage;
+import com.sspart.experiment.utils.DriverUtils;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +17,7 @@ public class ProductSearchStepDefs extends DriverUtils{
 	 HomePage homePage= new HomePage();
 	 ProductSearchPage productSearchPage =new ProductSearchPage();
 	 ProductPage productPage = new ProductPage();
+	 
 	 @Given("^I am in background step$")
 		public void i_am_in_background_step() throws Throwable {
 		 System.out.println("I am in background");
@@ -35,6 +38,7 @@ public class ProductSearchStepDefs extends DriverUtils{
 	   Assert.assertTrue(productSearchPage.verifyProductSearchResult(productName));
 	   productSearchPage.selectProduct(productName);
 	   productPage.switchToProductPage(productName);
+	   
 	}
 
 	@Then("^I will print the product price$")

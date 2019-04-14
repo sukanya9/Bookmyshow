@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sspart.experiment.Gmail">
+      <class name="com.sspart.experiment1.TestCase">
         <methods>
-          <include name="sign_in_Page"/>
-          <include name="selectAmazon"/>
+          <include name="test02"/>
         </methods>
-      </class> <!-- com.sspart.experiment.Gmail -->
+      </class> <!-- com.sspart.experiment1.TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
