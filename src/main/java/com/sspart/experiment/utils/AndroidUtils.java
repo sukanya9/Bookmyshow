@@ -21,8 +21,8 @@ public class AndroidUtils extends ResourceUtil {
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			desiredCapabilities.setCapability("deviceName","Lenovo");
 			desiredCapabilities.setCapability("platformName", "Android");
-			desiredCapabilities.setCapability("appPackage", "com.android.calculator");
-			desiredCapabilities.setCapability("appActivity", "com.android.calculator");
+			desiredCapabilities.setCapability("appPackage", "com.android.calculator2");
+			desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 			desiredCapabilities.setCapability("noReset", "true");
 			mobileDriver= new AndroidDriver<WebElement>(new URL(" http://localhost:4723/wd/hub"),desiredCapabilities);
 			try {
