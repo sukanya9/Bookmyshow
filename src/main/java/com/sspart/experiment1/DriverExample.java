@@ -48,21 +48,7 @@ public class DriverExample {
 			Thread.sleep(2000);
 			getDriver().findElement(By.xpath("//*[@class=\"bottom-screen\"]//a[@id=\"btmcntbook\"]")).click();
 		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-//				driver.findElement(By.xpath(“//*[@id="TickType"]/div[1]”).click();
-//				driver.findElement(By.xpath(“//*[@id="prePay"]”).click();
-	}
+		}
 	
-		
-		
-		
 	}
 
