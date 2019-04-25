@@ -28,9 +28,9 @@ public class Gmail {
 	@Test
 	public void sign_in_Page() throws InterruptedException {
 	Thread.sleep(3000);
-	driver.findElement(By.id("//*[@id=identifierId]")).sendKeys("sukanya.pasupula9@gmail.com");
+	driver.findElement(By.id("//*[@id=identifierId]")).sendKeys("@gmail.com");
 	driver.findElement(By.linkText("//*[text()=\"Next\"]")).click();
-	driver.findElement(By.name("//*[@ name=\"password\"]")).sendKeys("Sukanya@9");
+	driver.findElement(By.name("//*[@ name=\"password\"]")).sendKeys("");
 	
 //			Compose button: By.xpath(//*[text()="Compose"])
 //			//*[@name="to"] To
