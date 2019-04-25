@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sspart.experiment1.TestCase">
+      <class name="com.sspart.experiment1.DriverExample">
         <methods>
-          <include name="test02"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.sspart.experiment1.TestCase -->
+      </class> <!-- com.sspart.experiment1.DriverExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
