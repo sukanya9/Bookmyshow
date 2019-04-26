@@ -46,7 +46,10 @@ public class DriverExample {
 		}
 		}
 			Thread.sleep(2000);
-			getDriver().findElement(By.xpath("//*[@class=\"bottom-screen\"]//a[@id=\"btmcntbook\"]")).click();
+			getDriver().findElement(By.xpath("//div[@style=\"display: block;\"]//*[@id=\"btmcntbook\"]")).click();
+			getDriver().findElement(By.xpath("//*[@id=\"mticket\"]")).click();
+			getDriver().findElement(By.xpath("//*[@id=\"mticket\"]")).isSelected();
+			Thread.sleep(2000);
 		
 		}
 	
